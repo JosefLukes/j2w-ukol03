@@ -20,9 +20,23 @@ public class Vizitka {
         this.ulice = ulice;
         this.obecPsc = obecPsc;
         this.celaAdresa = ulice + ", " + obecPsc;
-        this.email = email;
-        this.telefon = telefon;
-        this.web = web;
+        if (email != "") {
+            this.email = email;
+        } else {
+            this.email = "neuvedeno";
+        }
+        if (telefon != "") {
+            this.telefon = telefon;
+        } else {
+            this.telefon = "neuvedeno";
+        }
+        if (web != "") {
+            this.web = web;
+        } else {
+            this.web = "neuvedeno";
+        }
+
+
     }
 
     public String getJmeno() {
@@ -60,7 +74,6 @@ public class Vizitka {
     public String getCelaAdresa() {
         return celaAdresa;
     }
-
 
 
     public String getEmail() {
