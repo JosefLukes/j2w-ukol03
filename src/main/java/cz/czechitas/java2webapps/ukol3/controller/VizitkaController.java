@@ -15,12 +15,11 @@ public class VizitkaController {
 
   public VizitkaController() {
     this.vizitky = List.of(
-            new Vizitka("Pepa","farma","koněvova 198","13000 Praha", "pepa@zdepa.cz","","www.seznam.cz"),
-            new Vizitka("Josef","firma","Želetavská 1","14000 Praha", "josef@zdepa.cz","60660606",""),
-            new Vizitka("Jozef","lirma","koněvova 199","13000 Praha", "josef@zdepa.cz","60660606",""),
-            new Vizitka("Jusef","sirma","koněvova 197","13000 Praha", "josef@zdepa.cz","60660606",""),
-            new Vizitka("Jose","kirma","koněvova 195","13000 Praha", "","60660606","www.google.cz"),
-            new Vizitka("Vlaštovka","ČST","jindřišská 16","11000 Praha", "","60660606","www.ceskatelevize.cz")
+            new Vizitka("Michal","Firma","Michalská 1","11000 Praha", "michal@michal.cz","","www.seznam.cz"),
+            new Vizitka("Karel","Firma","Karlova 1","11000 Praha", "karel@karel.cz","60660606",""),
+            new Vizitka("Antonín","Firma","Antonínská 1","17000 Praha", "antonin@antonin.cz","60660606",""),
+            new Vizitka("Jáchym","Firma","Jáchymovská 1","15500 Praha", "","60660606",""),
+            new Vizitka("Zdeněk","Firma","Zdeňkov 2","58856 Zdeňkov", "","60660606","www.ceskatelevize.cz")
 
             );
   }
